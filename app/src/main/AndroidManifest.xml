@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.aplikasipencatatpelanggaran">
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AplikasiPencatatPelanggaran">
+        <activity
+            android:name=".ActivityUpdate"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ActivityUtama"
+            android:exported="false"
+            android:theme="@style/Theme.utama" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AplikasiPencatatPelanggaran" />
+        <activity
+            android:name=".ActivityTambah"
+            android:exported="false"
+            android:theme="@style/Theme.AplikasiPencatatPelanggaran" />
+        <activity
+            android:name=".ActivityDaftarKelas"
+            android:exported="false"
+            android:theme="@style/Theme.AplikasiPencatatPelanggaran" />
+        <activity
+            android:name=".ActivityKelas"
+            android:exported="false"
+            android:theme="@style/Theme.AplikasiPencatatPelanggaran" />
+        <activity
+            android:name=".ActivityLogin"
+            android:exported="false"
+            android:theme="@style/Theme.AplikasiPencatatPelanggaran" />
+        <activity
+            android:name=".ActivityRegister"
+            android:exported="false"
+            android:theme="@style/Theme.AplikasiPencatatPelanggaran" />
+
+    </application>
+
+</manifest>
